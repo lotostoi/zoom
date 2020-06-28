@@ -312,7 +312,7 @@ window.onload = () => {
     };
 
 
-    magnify(document.querySelectorAll('.zoom'),
+    magnify(d.querySelectorAll('.zoom'),
         {
             speed: 100,
         }
@@ -339,7 +339,7 @@ window.onload = () => {
         socket.on('sendMous', (data) => {
             if (socket.id != data.id) {
 
-                if (document.querySelector('.mous')) {
+                if (d.querySelector('.mous')) {
 
                     d.querySelector('.mous').style.left = `${data.cor.x - 10}px`
                     d.querySelector('.mous').style.top = `${data.cor.y - 10}px`
