@@ -1,0 +1,27 @@
+{
+  "name": "zoom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lotostoi/zoom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lotostoi/zoom/issues"
+  },
+  "homepage": "https://github.com/lotostoi/zoom#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.3.0",
+    "soket.io": "0.0.1-security",
+    "ws": "^7.3.0"
+  }
+}
